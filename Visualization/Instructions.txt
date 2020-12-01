@@ -1,0 +1,27 @@
+Visualization
+- Scripts, data, and interfaces that create a prototype to visualize pedestrian signal activity. 
+
+Links
+- ped-viz: https://singletonpa.shinyapps.io/ped-viz/
+- ped-covid19: https://singletonpa.shinyapps.io/ped-covid19/
+
+Contents
+- ped-viz (folder): Folder containing scripts and data for visualizing pedestrian signal data and estimated pedestrian volumes. 
+--- app (R): R script that runs the user interface. 
+--- Data (folder): Folder containing data for the app. 
+----- peddata (rds): Processed signal data with estimated pedestrian volumes (aggregated by hour and phase) for signals in the prototype visualization.  
+----- signals (rds): Data about each signal in Utah, obtained from UDOT signals staff. 
+- ped-covid19 (folder): Folder containing scripts and data for visualizing daily pedestrian signal data and comparing 2019 to 2020. 
+--- app (R): R script that runs the user interface. 
+--- funs (R): R script called by app containing custom functions used to process pedestrian signal data. 
+--- sigareas (R): R script called by app containing information to determine the location types of select signals. 
+--- Data (folder): Folder containing data for the app. 
+----- dat19 (rds): Daily data for 2019 for all signals in Utah. 
+----- dat20 (rds): Daily data for 2020 for all signals in Utah. 
+----- signals (rds): Data about each signal in Utah, obtained from UDOT signals staff. 
+----- countiesGIS (rds): Shapefile (in R format) of Utah counties, obtained from https://gis.utah.gov/data/boundaries/citycountystate/. 
+- DD {peddata, dat19 dat20, signals} (docx): Data dictionaries explaining the contents and formats of the data files. 
+
+Instructions
+- To run the R app script, double click on the file, which should open in RStudio. Then click the Run App button. 
+- To load a rds file into R, use the command and assignment: temp <- readRDS(...) where ... = file name (and path) in quotes, and temp is the object name you want it to be stored under in R. For example, the script uses: dat19 <- readRDS(file=paste0("Data", "/", "dat19.rds"))
