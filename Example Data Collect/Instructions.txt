@@ -1,0 +1,26 @@
+Example Data Collect
+- Example scripts, raw data, video, and combined data showing how to collect and process pedestrian event data and combine it with signal data. 
+
+Contents
+- Instructions-video (pdf): Presentation slides with instructions for watching the video, using the user interface, and entering pedestrian crossing event information. 
+- DataEntry (folder): Folder containing blank versions of the data entry app. 
+--- app (R): R script that runs the user interface for entering pedestrian events from videos. 
+--- lists (R): R script called by app with supplemental information for the user interface. 
+--- videos (csv, RData): Information about video used to collect pedestrian crossing event data. 
+--- events (csv, RData): Pedestrian crossing event data collected from videos. 
+- 2019-01-31 5306 (folder): Folder containing an example showing video data collection. 
+--- 20190131_1234_sig5306 (mp4): Example recorded video. 
+--- ATSPM (folder): Folder containing example ATSPM data. 
+----- ControllerEventLog (csv): Raw data for the signal and time period shown in the example video. 
+--- DataEntry (folder): Folder containing the data entry app and data for the example video. 
+----- app (R): R script that runs the user interface for entering pedestrian events from videos. 
+----- lists (R): R script called by app with supplemental information for the user interface. 
+--- videos (csv, RData): Information about video used to collect pedestrian crossing event data. 
+--- events (csv, RData): Pedestrian crossing event data collected from videos. 
+- combine (R): R script to combine 
+- funs (R): R script called by combine containing custom functions used to process raw pedestrian signal data. 
+- dat (csv): Combined data (aggregated by hour and phase), the output from the combine R script. 
+
+Instructions
+- To run a R script, double click on the file, which should open in RStudio. Then highlight the lines of code you wish to run, and click the Run button. 
+- To load a RData file into R, use the command: load(...) where ... = file name (and path) in quotes. For example, the app script uses: load(file="videos.Rdata")
