@@ -1,4 +1,4 @@
-Description of Folders in "Data_Scripts"
+Description of Folders
 
 Typologies
 - Scripts, data, and results of the cluster analysis to identify patterns (typologies) of pedestrian activity at traffic signals. 
