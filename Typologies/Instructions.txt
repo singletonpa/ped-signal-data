@@ -1,0 +1,12 @@
+Typologies
+- Scripts, data, and results of the cluster analysis to identify patterns (typologies) of pedestrian activity at traffic signals. 
+
+Contents
+- cluster_ts (R): R script used to perform the time series cluster analysis and identify typologies. 
+- sigtab (rds): Data used as input to the cluster analysis. 
+- typologies (csv): List of signals by typology, as output from the cluster analysis and typology identification. 
+- DD {sigtab, typologies} (docx): Data dictionaries explaining the contents and formats of the data files. 
+
+Instructions
+- To run a R script, double click on the file, which should open in RStudio. Then highlight the lines of code you wish to run, and click the Run button. 
+- To load a rds file into R, use the command and assignment: temp <- readRDS(...) where ... = file name (and path) in quotes, and temp is the object name you want it to be stored under in R. For example, the script uses: sigtab <- readRDS("sigtab.rds")

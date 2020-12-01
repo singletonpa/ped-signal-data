@@ -1,0 +1,13 @@
+Models
+- Scripts, data, and results of the regression modeling to develop (factoring) methods to estimate pedestrian volumes from signal data. 
+
+Contents
+- estimate_models (R): R script used to perform the linear regressions to develop (factoring) methods to estimate pedestrian volumes from signal data. 
+- pedrecall (R): R script called by estimate_models to determine whether phase during an hour was likely on pedestrian recall. 
+- dat_ts_wdhr (rds): Data used as input to the regression modeling. 
+- models (rds): Linear regresion models, stored in R format, developed from the linear regressions. 
+- DD {dat_ts_wdhr} (docx): Data dictionaries explaining the contents and formats of the data files. 
+
+Instructions
+- To run a R script, double click on the file, which should open in RStudio. Then highlight the lines of code you wish to run, and click the Run button. 
+- To load a rds file into R, use the command and assignment: temp <- readRDS(...) where ... = file name (and path) in quotes, and temp is the object name you want it to be stored under in R. For example, the script uses: sigtab <- readRDS("dat_ts_wdhr.rds")
