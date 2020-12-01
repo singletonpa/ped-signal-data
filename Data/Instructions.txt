@@ -1,0 +1,11 @@
+Data
+- Data collected and assembled, including about videos, pedestrian crossing events, and combined with signal data. 
+
+Contents
+- videos_all (csv, RData): Information about videos used to collect pedestrian crossing event data. 
+- events_all (csv, RData): Pedestrian crossing event data collected from videos. 
+- dat (csv, RData): Combined pedestrian data collected from videos and assembled from traffic signal controller logs, aggregated by hour and organized by signal and phase. 
+- DD {videos_all, events_all, dat} (docx): Data dictionaries explaining the contents and formats of the data files. 
+
+Instructions
+- To load a RData file into R, use the command: load(...) where ... = file name (and path) in quotes. For example, from a script stored in the Data_Scripts folder, use: load(file.path("Data", "dat.RData"))

@@ -1,0 +1,13 @@
+Example Apply Models
+- Example scripts, data, and results of applying the regression models to raw signal data and estimating pedestrian volumes. 
+
+Contents
+- apply_models (R): R script used to apply the regression models to raw signal data and estimate pedestrian volumes. 
+- funs (R): R script called by apply_models containing custom functions used to process raw pedestrian signal data. 
+- 5306 (csv): Raw data for an example signal, used as input to the model application script. 
+- 5306 hr (csv): Processed data (aggregated by hour and phase) for the example signal; an intermediate output of the model application script. 
+- 5306 hr est (csv): Processed data with estimated pedestrian volumes (aggregated by hour and phase) for the example signal; the final output of the model application script. 
+- DD {5306, 5306 hr, 5306 hr est} (docx): Data dictionaries explaining the contents and formats of the data files. 
+
+Instructions
+- To run a R script, double click on the file, which should open in RStudio. Then highlight the lines of code you wish to run, and click the Run button. 
