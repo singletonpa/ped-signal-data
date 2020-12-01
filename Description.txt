@@ -1,0 +1,22 @@
+Description of Folders in "Data_Scripts"
+
+Typologies
+- Scripts, data, and results of the cluster analysis to identify patterns (typologies) of pedestrian activity at traffic signals. 
+
+Example Data Collect
+- Example scripts, raw data, video, and combined data showing how to collect and process pedestrian event data and combine it with signal data. 
+
+Data
+- Data collected and assembled, including about videos, pedestrian crossing events, and combined with signal data. 
+
+Models
+- Scripts, data, and results of the regression modeling to develop (factoring) methods to estimate pedestrian volumes from signal data. 
+
+Example Apply Models
+- Example scripts, data, and results of applying the regression models to raw signal data and estimating pedestrian volumes. 
+
+Visualization
+- Scripts, data, and interfaces that create a prototype to visualize pedestrian signal activity. 
+
+NOTES ON R scripts
+- These scripts were written in R. To use, download R (https://cloud.r-project.org/) and then download RStudio (https://rstudio.com/products/rstudio/download/#download). Then, follow additional instructions in each folder. 
