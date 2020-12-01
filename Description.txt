@@ -18,5 +18,11 @@ Example Apply Models
 Visualization
 - Scripts, data, and interfaces that create a prototype to visualize pedestrian signal activity. 
 
+Report
+- Link to PDF research project report published by the Utah Department of Transportation in fall 2020. 
+
+Presentation
+- PDF of Powerpoint presentation provided to UDOT in August 2020. 
+
 NOTES ON R scripts
 - These scripts were written in R. To use, download R (https://cloud.r-project.org/) and then download RStudio (https://rstudio.com/products/rstudio/download/#download). Then, follow additional instructions in each folder. 
