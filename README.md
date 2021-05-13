@@ -28,5 +28,8 @@ Deliverables from the "Utilizing archived traffic signal performance measures fo
 ### Presentation
 - PDF of Powerpoint presentation provided to UDOT in August 2020. 
 
+### Papers
+- Links to papers published related to this project. 
+
 ### NOTES ON R scripts
 - These scripts were written in R. To use, download R (https://cloud.r-project.org/) and then download RStudio (https://rstudio.com/products/rstudio/download/#download). Then, follow additional instructions in each folder. 
