@@ -2,6 +2,8 @@
 
 Deliverables from the "Utilizing archived traffic signal performance measures for pedestrian planning & analysis" research project UT18.602, funded by the Utah Department of Transportation, and carried out by [Patrick Singleton](https://engineering.usu.edu/cee/people/faculty/singleton-patrick) and the [Singleton Transportation Lab](https://engineering.usu.edu/cee/research/labs/patrick-singleton/index) at Utah State University. 
 
+[![DOI](https://zenodo.org/badge/317593776.svg)](https://zenodo.org/badge/latestdoi/317593776)
+
 ## Description of Folders
 
 ### Typologies
