@@ -1,5 +1,0 @@
-References and links to papers published related to this project: 
-
-Singleton, P. A., & Runa. F. (2021). Pedestrian traffic signal data accurately estimates pedestrian crossing volumes. Transportation Research Record: Journal of the Transportation Research Board. https://doi.org/10.1177/0361198121994126
-
-Runa, F., & Singleton, P. A. (2021). Assessing the impacts of weather on pedestrian signal activity at 49 signalized intersections in Northern Utah. Transportation Research Record: Journal of the Transportation Research Board. https://doi.org/10.1177/0361198121994111
