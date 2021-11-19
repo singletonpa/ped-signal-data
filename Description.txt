@@ -1,7 +1,10 @@
-Description of Folders
+Description of Folders in "Data_Scripts"
 
 Typologies
 - Scripts, data, and results of the cluster analysis to identify patterns (typologies) of pedestrian activity at traffic signals. 
+
+Temporal Patterns
+- Scripts and data resulting from the analysis of temporal patterns and spatial characteristics of pedestrian pus-button data. 
 
 Example Data Collect
 - Example scripts, raw data, video, and combined data showing how to collect and process pedestrian event data and combine it with signal data. 
@@ -17,12 +20,6 @@ Example Apply Models
 
 Visualization
 - Scripts, data, and interfaces that create a prototype to visualize pedestrian signal activity. 
-
-Report
-- Link to PDF research project report published by the Utah Department of Transportation in fall 2020. 
-
-Presentation
-- PDF of Powerpoint presentation provided to UDOT in August 2020. 
 
 NOTES ON R scripts
 - These scripts were written in R. To use, download R (https://cloud.r-project.org/) and then download RStudio (https://rstudio.com/products/rstudio/download/#download). Then, follow additional instructions in each folder. 
