@@ -1,4 +1,0 @@
-Singleton, P. A., Runa, F., & Humagain, P. (2020). Utilizing archived traffic signal performance measures for pedestrian planning and analysis (Report No. UT-20.17). Salt Lake City, UT: Utah Department of Transportation. 
-
-Indirect link: https://www.udot.utah.gov/connect/about-us/technology-innovation/research-innovation-division/
-Direct link: https://drive.google.com/file/d/1AwLf1DZVw0Vj-btPl5eoWe0UOw9TyFwq/view?usp=sharing
